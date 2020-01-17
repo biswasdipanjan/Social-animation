@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+
+}
+
+.container .fb {
+    margin-right: 30px;
+    width: 130px;
+    height: 130px;
+    border: 2px solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    animation: fbborder 1s ease-in-out 0s infinite;
+}
+
+.container .fb .fab {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 50px;
+    font-weight: 900;
+    animation: fbicon 1s ease-in-out 0s infinite;
+}
+
+.container .insta {
+    margin-right: 30px;
+    width: 130px;
+    height: 130px;
+    border: 2px solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    animation: instaborder 1s ease-in-out 1s infinite;
+}
+
+.container .insta .fab {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 50px;
+    font-weight: 900;
+    animation: instaicon 1s ease-in-out 1s infinite;
+}
+
+.container .link {
+    margin-right: 30px;
+    width: 130px;
+    height: 130px;
+    border: 2px solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    animation: linkborder 1s ease-in-out 2s infinite;
+}
+
+.container .link .fab {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 50px;
+    font-weight: 900;
+    animation: linkicon 1s ease-in-out 2s infinite;
+}
+
+.container .git {
+    margin-right: 30px;
+    width: 130px;
+    height: 130px;
+    border: 2px solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    animation: gitborder 1s ease-in-out 3s infinite;
+}
+
+.container .git .fab {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 50px;
+    font-weight: 900;
+    animation: giticon 1s ease-in-out 3s infinite;
+}
+
+
+@keyframes fbborder {
+    0% {
+        margin-right: 30px;
+        width: 130px;
+        height: 130px;
+        border: 2px solid;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    100% {
+        border: 4px solid #3b5998;
+        box-shadow: 0 0 10px 10px #3b5998;
+    }
+
+}
+
+@keyframes fbicon {
+    0% {
+        width: 90px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    100% {
+        color: #fff;
+        background: #3b5998;
+        width: 110px;
+        height: 110px;
+        font-size: 60px;
+    }
+}
+
+
+@keyframes instaborder {
+    0% {
+        margin-right: 30px;
+        width: 130px;
+        height: 130px;
+        border: 2px solid;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    100% {
+        border: 4px solid transparent;
+        background-image: linear-gradient(cadetblue, cadetblue), radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+        box-shadow: 0 0 10px 10px #f14598;
+        background-origin: border-box;
+        background-clip: content-box,
+            border-box;
+    }
+
+}
+
+@keyframes instaicon {
+    0% {
+        width: 90px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    100% {
+        color: #fff;
+        background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+        width: 110px;
+        height: 110px;
+        font-size: 60px;
+    }
+}
+
+
+@keyframes linkborder {
+    0% {
+        margin-right: 30px;
+        width: 130px;
+        height: 130px;
+        border: 2px solid;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    100% {
+        border: 4px solid #0e76a8;
+        box-shadow: 0 0 10px 10px #0e76a8;
+    }
+
+}
+
+@keyframes linkicon {
+    0% {
+        width: 90px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    100% {
+        color: #fff;
+        background: #0e76a8;
+        width: 110px;
+        height: 110px;
+        font-size: 60px;
+    }
+}
+
+@keyframes gitborder {
+    0% {
+        margin-right: 30px;
+        width: 130px;
+        height: 130px;
+        border: 2px solid;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    100% {
+        border: 4px solid #000;
+        box-shadow: 0 0 10px 10px #000;
+    }
+
+}
+
+@keyframes giticon {
+    0% {
+        width: 90px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    100% {
+        color: #fff;
+        background: #000;
+        width: 110px;
+        height: 110px;
+        font-size: 60px;
+    }
+}
+
+
